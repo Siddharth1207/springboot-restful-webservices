@@ -1,0 +1,3 @@
+#docker run command from local test
+docker build -t springboot-restful-webservices .
+docker run --name springboot-mysql-container -p 8080:8080 springboot-restful-webservices
